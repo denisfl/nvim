@@ -4,6 +4,8 @@
 
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
+I forked it and made some changes to fit my needs.
+
 ## 🛠️ Installation
 
 #### Make a backup of your current nvim and shared folder
