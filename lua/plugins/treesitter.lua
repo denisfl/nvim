@@ -7,6 +7,9 @@ return {
       "json",
       "yaml",
       "ruby",
+      "javascript",
+      "typescript",
+      "vue",
     },
   },
 }
