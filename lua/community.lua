@@ -7,7 +7,14 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.pack.vue" },
+  {
+    import = "astrocommunity.pack.vue",
+    opts = {
+      formatting = {
+        disabled = true,
+      },
+    },
+  },
   { import = "astrocommunity.utility.lua-json5" },
   -- import/override with your plugins folder
 }
